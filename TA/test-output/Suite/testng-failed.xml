@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testng(failed)">
+    <classes>
+      <class name="LoginStepDef.LoginStepDef">
+        <methods>
+          <include name="the_browser_must_be_closed"/>
+          <include name="click_on_OK"/>
+          <include name="i_am_on_TA_login_Page"/>
+          <include name="the_dashboard_will_be_opened"/>
+          <include name="i_add_my_mail"/>
+        </methods>
+      </class> <!-- LoginStepDef.LoginStepDef -->
+    </classes>
+  </test> <!-- Testng(failed) -->
+</suite> <!-- Failed suite [Suite] -->

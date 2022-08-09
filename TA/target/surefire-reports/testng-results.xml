@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-09T08:10:14Z" name="TestLogin.TestLogin" finished-at="2022-08-09T08:10:36Z" duration-ms="22423">
+    <groups>
+    </groups>
+    <test started-at="2022-08-09T08:10:14Z" name="Command line test" finished-at="2022-08-09T08:10:36Z" duration-ms="22423">
+      <class name="TestLogin.TestLogin">
+        <test-method signature="i_am_on_TA_login_Page()[pri:0, instance:TestLogin.TestLogin@661972b0]" started-at="2022-08-09T09:10:14Z" name="i_am_on_TA_login_Page" finished-at="2022-08-09T09:10:31Z" duration-ms="17920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_am_on_TA_login_Page -->
+        <test-method signature="i_add_my_mail()[pri:0, instance:TestLogin.TestLogin@661972b0]" started-at="2022-08-09T09:10:31Z" name="i_add_my_mail" finished-at="2022-08-09T09:10:32Z" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_add_my_mail -->
+        <test-method signature="click_on_OK()[pri:0, instance:TestLogin.TestLogin@661972b0]" started-at="2022-08-09T09:10:32Z" name="click_on_OK" finished-at="2022-08-09T09:10:36Z" duration-ms="3896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_OK -->
+        <test-method signature="the_dashboard_will_be_opened()[pri:0, instance:TestLogin.TestLogin@661972b0]" started-at="2022-08-09T09:10:36Z" name="the_dashboard_will_be_opened" finished-at="2022-08-09T09:10:36Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- the_dashboard_will_be_opened -->
+        <test-method signature="the_browser_must_be_closed()[pri:0, instance:TestLogin.TestLogin@661972b0]" started-at="2022-08-09T09:10:36Z" name="the_browser_must_be_closed" finished-at="2022-08-09T09:10:36Z" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- the_browser_must_be_closed -->
+      </class> <!-- TestLogin.TestLogin -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestLogin.TestLogin -->
+</testng-results>
