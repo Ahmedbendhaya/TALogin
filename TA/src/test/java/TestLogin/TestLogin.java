@@ -23,7 +23,7 @@ import LoginPage.LoginPage;
 		public void i_am_on_TA_login_Page() {
 			String projectPath = System.getProperty("user.dir");
 			System.out.println("Project path is : "+projectPath);			
-		    System.setProperty("webdriver.chrome.driver", projectPath+"/src/test/resources/Driver/chromedriver.exe");
+		    System.setProperty("webdriver.chrome.driver", projectPath+"/src/test/resources/drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); 
 			driver.manage().timeouts().scriptTimeout(Duration.ofMinutes(2)); 
