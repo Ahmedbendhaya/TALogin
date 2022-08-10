@@ -6,7 +6,6 @@
   <packaging>jar</packaging>
   
   <dependencies>
-	  
   <dependency>
 	  
     <groupId>io.cucumber</groupId>
