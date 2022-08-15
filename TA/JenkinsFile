@@ -10,9 +10,9 @@ pipeline {
          stage('build') {
 
             steps {
-                git branch: 'main', credentialsId: 'MyGitHub', url: 'https://github.com/Ahmedbendhaya/TALogin.git'
+                git branch: 'main', url: 'https://github.com/Ahmedbendhaya/TALogin.git'
 
-                bat'mvn test'
+                bat'mvn clean install'
             }
         }  
     }
