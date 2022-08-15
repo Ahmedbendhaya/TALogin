@@ -1,11 +1,19 @@
 pipeline {
-	agent any
-	stages {
-		stage("Build") {
-			steps {
-			sh "mvn --version"
-			sh "mvn clean install"
-			}
-		}
-	}
+
+    agent any
+    stages {
+        stage('checkout') {
+            steps {
+                checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'MyGitHub', url: 'https://github.com/Jihene2/JenkinsToxrayProject.git']]])
+            }
+        }
+         stage('build') {
+
+            steps {
+                git branch: 'main', credentialsId: 'MyGitHub', url: 'https://github.com/Jihene2/JenkinsToxrayProject.git'
+
+                bat'mvn test'
+            }
+        }  
+    }
 }
